@@ -1,8 +1,8 @@
 {
   "version": 2,
   "public": true,
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
+  "buildCommand": "cd conecta-talentos-rh && npm run build",
+  "outputDirectory": "conecta-talentos-rh/dist",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
